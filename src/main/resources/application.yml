@@ -1,0 +1,16 @@
+#spring:
+#  #邮箱服务器
+# mail:
+#   username: 2179732328@qq.com   #登录邮箱的账号
+#  #这里填的是你刚才客户端授权的密码，而不是你登录邮箱的密码
+#   password: cbxghnyfyrxzecae
+#   default-encoding: UTF-8
+#   host: smtp.qq.com
+#   port: 15
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 2179732328@qq.com
+    password: cbxghnyfyrxzecae
+    default-encoding: UTF-8
+    port: 25

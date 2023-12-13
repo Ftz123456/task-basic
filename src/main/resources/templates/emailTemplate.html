@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户校验码</title>
+</head>
+<body>
+<div><span th:text="${username}">XXX</span> 女士/先生，您好
+</div>
+<p style="text-indent: 2em">你的用户验证码为:<span th:text="${code}" style="color: aqua;">
+</span>请妥善保管，不要泄露给其他人. </p>
+</body>
+</html>
