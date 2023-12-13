@@ -35,7 +35,7 @@ public class EmailController {
     public String sendTemplateEmail() {
         String receiver = "485913144@qq.com";
         String subject = "测试邮件";
-
+        //djushfuhasuhuash
        Context context = new Context();
         context.setVariable("username", "ftz");
         context.setVariable("code", RandomUtil.randomNumbers(5));
